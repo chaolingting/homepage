@@ -1,0 +1,81 @@
+
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: darkolivegreen;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  
+}
+
+.work-img {
+  border: 1px solid palegoldenrod;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 500;
+}
+
+body {
+  font-family: "Instrument Sans", "Noto Sans TC", sans-serif;
+  display: flex;
+  line-height: 1.8;
+  color: #444;
+}
+
+aside {
+  max-width: 320px;
+  padding: 3rem;
+}
+
+
+nav > ul {
+  padding: 1rem;
+}
+
+nav > ul > li {
+  padding: 0.5rem;
+}
+
+
+
+#about {
+  padding: 3rem;
+}
+
+#work {
+  max-width: 1050px;
+  padding: 3rem;
+}
+
+.uiux {
+  max-width: 1000px;
+  
+}
+
+.img-block {
+  display: flex;
+  gap: 16px;
+  overflow: scroll;
+  max-width: 800px;
+}
+
+.title {
+  padding-bottom: 2rem;
+}
