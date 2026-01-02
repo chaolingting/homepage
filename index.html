@@ -5,52 +5,145 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>chaoling's home</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/favicon" href="/images/favicon.svg">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Noto+Sans+TC:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="scroller">
 
-    <aside>
-      <nav>
-        <h3>chaolingting's homepage</h3>
-        <ul>
-          <li><a href="#about">about</a></li>
-          <li><a href="#work">work</a></li>
-          <li><a href="#playground">playground</a></li>
-          <li><a href="#cv">cv</a></li>
-        </ul>
-      </nav>
-    </aside>
+  <aside>
+    <nav>
+      <h4>chaoling's</h4>
+      <ul>
+        <li><a href="#about">short intro</a></li>
+        <li><a href="#work">design works</a></li>
+        <li><a href="#smallprojects">small projects</a></li>
+        <!-- <li><a href="#illustration">illustration</a></li> -->
+
+        <!-- <li><a href="mailto:chaolingting1993@gmail.com">contact ↗</a></li> -->
+      </ul>
+    </nav>
+  </aside>
 
 
+  <main class="content ">
 
-
-  <main class="content">
-
-    
   <header id="about">
-    <p>im chao-ling ting, a designer specializing in UI/UX design, web design, and graphic design.</p>
-    <p>currently working at <a href="https://moom.com.tw/tw">moom bookshop</a></p>
+    <p>hey there! </p>
+      <p>im <b>chao-ling ting</b> (丁照玲), a designer who crafts digital experiences with joy.
+       
+       specialize in <span class="underline">ui/ux design</span>, <span class="underline">web design</span>, 
+<span class="underline">graphic design</span>, and <span class="underline">illustration</span>. currently working as a uiux / web designer at <a href="https://moom.com.tw/tw">📖 moom bookshop</a> in taipei, taiwan.</p>   
+    <!-- <p>i do:
+      <ul class="whatido">
+        <li>UI/UX design</li>
+        <li>web design</li>
+        <li>graphic design</li>
+        <li>illustration</li>
+      </ul>
+    </p> -->
+    <!-- <p>also, i have two cats.</p> -->
   </header>
+
+
     <div id="work">
+      
       <section class="uiux">
-        <h4 class="title">Web UI/UX Design</h4>
-        <div class="current">
-         <div class="img-block">
+        <h3 class="title">works</h3>
+
+        <div class="case current">
+         <div class="img-block scroller">
           <img class="work-img" src="images/moom01.jpg" alt="">
           <img class="work-img" src="images/moom02.jpg" alt="">
          </div>
+         <div class="captions">
+          
+          <p class="place"><a href="https://moom.com.tw/tw" target="_blank">moom bookshop ↗</a></p>
+          <div class="tags">
+            <span class="scope">ui ux design</span>
+            <span class="scope">web design</span>
+          </div>
+          <span class="duration">2025 - present</span>
+         </div>
 
-          <p>moom bookshop <a href="https://moom.com.tw/tw">↗</a></p>
         </div>
-        <div class="pyladies">
-          <img src="" alt="">
+        <div class="case pyladies">
+          <div class="img-block scroller">
+            <img class="work-img" src="images/pyladies01.jpg" alt="">
+            <img class="work-img" src="images/pyladies02.jpg" alt="">
+            <img class="work-img" src="images/pyladies03.jpg" alt="">
+          </div>
+          <div class="captions">
+            <p class="place"><a href="https://tw.pyladies.com/" target="_blank">PyLadies Taiwan ↗</a></p>
+            <div class="tags">
+              <span class="scope">ui design</span>
+              <span class="scope">illustration</span>  
+            </div>
+            <span class="duration">2024</span>
+         </div>
         </div>
+      </section>
 
+      <!-- <section class="commercial">
+        <div class="case illustration">
+          <div class="img-block scroller">
+            <ul class="illustration-work">
+              <li><img class="work-img" src="images/crmillustration-01.jpg" alt=""></li>
+              <li><img class="work-img" src="images/crmillustration-02.png" alt=""></li>
+            </ul>
+          </div>
+          <div class="captions">
+            <p class="place">commercial illustration & graphic design</p>
+            <div class="tags">
+            <span class="scope">illustration</span>
+            <span class="scope">graphic design</span>
+            </div>
+            <span class="duration">2024</span>
+         </div>
+        </div>
+      </section> -->
+
+    </div>
+
+    <div id="smallprojects">
+      
+      <section class="webdevelopment">
+        <h4 class="title">small projects</h4>
+        <p>some js/html/css projects i've made while i was learning with the odin project.</p>
+        <ul class="s-pjs">
+          <li><img class="thumb" src="images/thumb3.jpg"><a href="https://chaolingting.github.io/tic-tac-toe/" target="_blank">Tic Tac Toe ↗</a></li>
+          <li><img class="thumb" src="images/thumb2.jpg"><a href="https://chaolingting.github.io/the-odin-project-library/" target="_blank">Library ↗</a></li>
+          <li><img class="thumb" src="images/thumb1.jpg"><a href="https://chaolingting.github.io/Etch-a-Sketch/" target="_blank">Etch a Sketch ↗</a></li>
+          <li><img class="thumb" src="images/thumb4.jpg"><a href="https://moom-plants.netlify.app/" target="_blank">moom plants ↗</a></li>
+
+        </ul>
       </section>
     </div>
 
+
+    <!-- <div id="contact">
+      <h4>contact</h4>
+      <section>
+      
+      </section>
+    </div> -->
+
+    <footer>
+      <p>thanks for stopping by! also can find me here:</p>
+      <a href="https://www.are.na/chao-ling-ting/channels">Are.na</a>
+      <a href="https://github.com/chaolingting">Github</a>
+      <p>made by chaolingting 2025</p>
+      
+    </footer>
+
+
   </main>
+
+
+
+  <script src="main.js"></script>
+
 </body>
 </html>
