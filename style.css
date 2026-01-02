@@ -15,6 +15,10 @@
   
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ::selection {
   background-color: var(--links-color);
   color: var(--main-color);
@@ -320,6 +324,10 @@ footer {
     gap: 0.5rem;
     flex-wrap: wrap;
   }
+
+
+
+  
 }
 
 #about > p {
@@ -362,4 +370,10 @@ footer {
 
 .illustration-work > li > .work-img {
   max-width: 400px;
+}
+
+#about,
+#work,
+#smallprojects {
+  scroll-margin-top: 9rem;
 }
